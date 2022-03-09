@@ -1,3 +1,5 @@
+# Data models of the app. These will have to be defined as database models later on.
+
 class User():
     def __init__(self, code, name, surname) -> None:
         self.code = code
